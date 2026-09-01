@@ -1,7 +1,7 @@
 Macro to implements the `Debug` trait that prints nothing.
 
 Example usage:
-'''Rust
+`Rust
 use nodebug_derive::nodebug;
 
 struct MyType {
@@ -12,4 +12,4 @@ nodebug!(MyType);
 fn main() {
     println!("{:?}", MyType{/*...*/}); // prints: MyType::debug
 }
-'''
+`
